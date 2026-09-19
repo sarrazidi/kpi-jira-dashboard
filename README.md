@@ -77,13 +77,6 @@ The application automates the whole pipeline: fetching data from the Jira API, s
 3. `app.py` exposes the results through `/api/...` routes.
 4. The frontend calls the API and displays the charts.
 
-## Screenshots
-
-> *Add 2 or 3 screenshots in the `screenshots/` folder.*
-
-| Dashboard | KPI by status |
-|---|---|
-| ![Dashboard](screenshots/dashboard.png) | ![KPI](screenshots/kpi.png) |
 
 ## Project structure
 
@@ -253,8 +246,3 @@ curl -X POST http://127.0.0.1:5000/api/login \
 - Unit tests for the KPI calculations
 - Docker containerization
 
-## Author
-
-**Sarra Zidi**
-GitHub: [@sarrazidi](https://github.com/sarrazidi)
-LinkedIn: *(add your link)*
